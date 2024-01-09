@@ -2,9 +2,9 @@ import React from "react";
 
 function App() {
   return (
-    <div className="overflow-hidden bg-neutral-50">
+    <div className="pb-10 overflow-hidden bg-neutral-50">
       <div className="flex gap-0 max-md:flex-col max-md:items-stretch max-md:gap-0">
-        <div className="flex flex-col items-stretch w-[16%] max-md:w-full max-md:ml-0 border-0 border-blue-500">
+        <div className="flex flex-col items-stretch md:w-[22%] lg:w-[16%] max-md:w-full max-md:ml-0 border-0 border-blue-500">
           <div className="flex flex-col items-stretch w-full px-2 py-4 mx-auto bg-slate-800 grow">
             <div className="flex items-start gap-3 pr-4">
               <div className="flex flex-col items-center justify-center w-10 h-10 px-px bg-white rounded aspect-square">
@@ -127,7 +127,7 @@ function App() {
                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/584abd1c092e9db5526f5fe98aa3d1b71af61dc23364eda5c2dec92cbf2c64e4?apiKey=b6da57859309491f85bbb08a288b2520&"
                     className="object-contain object-center w-4 max-w-full my-auto overflow-hidden aspect-square shrink-0"
                   />
-                  <div className="self-stretch text-base leading-6 text-zinc-500 grow whitespace-nowrap">
+                  <div className="self-stretch text-sm leading-6 text-zinc-500 grow whitespace-nowrap">
                     Search features, tutorials, etc.
                   </div>
                 </div>
@@ -145,7 +145,7 @@ function App() {
                 />
               </div>
           </div>
-          <div className="flex flex-col px-5 border-0 border-green-500 max-md:max-w-full">
+          <div className="flex flex-col border-0 border-green-500 md:px-2 lg:px-5 max-md:max-w-full">
             <div className="justify-between items-center self-stretch flex gap-5 mt-8 mx-3 max-md:max-w-full max-md:flex-wrap max-md:mr-2.5">
               <div className="my-auto text-xl font-medium leading-7 text-zinc-900">
                 Overview
@@ -159,18 +159,18 @@ function App() {
               </div>
             </div>
             <div className="self-stretch mt-6 mx-3 max-md:max-w-full max-md:mr-2.5">
-              <div className="flex gap-5 max-md:flex-col max-md:items-stretch max-md:gap-0">
-                <div className="flex flex-col items-stretch w-[33%] max-md:w-full max-md:ml-0">
+              <div className="flex gap-5 max-lg:flex-col max-md:items-stretch max-md:gap-0">
+                <div className="flex flex-col items-stretch w-[33%] max-lg:w-full max-md:ml-0">
                   <div className="flex flex-col items-stretch justify-center shadow-sm grow max-md:mt-5">
                     <div className="flex flex-col items-start w-full pt-5 rounded-lg bg-sky-700">
                       <div className="items-stretch flex gap-2 ml-5 max-md:ml-2.5">
-                        <div className="text-base leading-6 text-white grow whitespace-nowrap">
+                        <div className="pl-2 text-base leading-6 text-white grow whitespace-nowrap">
                           Next Payout
                         </div>
                         <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/d02d51634bcbde735d6f52432b15db9a1e7b56dc3346bc65a5519e7954d3a829?apiKey=b6da57859309491f85bbb08a288b2520&" className="self-center object-contain object-center w-4 max-w-full my-auto overflow-hidden aspect-square shrink-0"/>
                       </div>
-                      <div className="justify-between items-stretch self-center flex w-[331px] max-w-full gap-5 mt-4">
-                        <div className="text-3xl font-medium leading-10 text-white">
+                      <div className="flex items-stretch self-center justify-between w-full gap-5 pr-4 mt-4 xl:pl-6">
+                        <div className="pl-4 font-medium leading-10 text-white xl:pl-0 xl:text-3xl lg:text-2xl md:text-4xl sm1:text-3xl">
                           ₹2,312.23
                         </div>
                         <div className="flex items-stretch self-center gap-0 my-auto">
@@ -181,17 +181,17 @@ function App() {
                         </div>
                       </div>
                       <div className="flex items-stretch self-stretch justify-between gap-5 px-6 py-2 mt-5 rounded-lg bg-sky-800 max-md:px-5">
-                        <div className="text-sm leading-5 text-zinc-100">
+                        <div className="text-xs leading-5 xl:text-sm text-zinc-100">
                           Next payout date:
                         </div>
-                        <div className="text-sm font-medium leading-5 text-zinc-100">
+                        <div className="text-xs font-medium leading-5 xl:text-sm text-zinc-100">
                           Today, 04:00PM
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0">
+                <div className="flex flex-col items-stretch w-[33%] lg:ml-5 max-lg:w-full max-md:ml-0">
                   <div className="flex flex-col items-stretch w-full p-5 mx-auto bg-white rounded-lg shadow-sm max-md:mt-5">
                     <div className="flex items-stretch gap-2 pr-5 max-md:pr-5">
                       <div className="text-base leading-6 text-neutral-600 shrink basis-auto w-fit">
@@ -200,11 +200,11 @@ function App() {
                       <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/05c480a640c56910fb889e734bcea046caca4619f73b512ad30b03eb6d1a3b1a?apiKey=b6da57859309491f85bbb08a288b2520&" className="self-center object-contain object-center w-4 max-w-full my-auto overflow-hidden aspect-square shrink-0"/>
                     </div>
                     <div className="flex items-stretch justify-between w-full gap-5 mt-4">
-                      <div className="text-3xl font-medium leading-10 text-zinc-900">
+                      <div className="font-medium leading-10 xl:text-3xl text-zinc-900 lg:text-2xl md:text-3xl sm1:text-3xl">
                         ₹92,312.20
                       </div>
                       <div className="flex items-stretch self-center gap-0 my-auto">
-                        <div className="text-base font-medium leading-6 underline text-sky-700 grow whitespace-nowrap">
+                        <div className="font-medium leading-6 underline sm:text-lg xl:text-xl text-sky-700 grow whitespace-nowrap lg:text-base">
                           13 orders
                         </div>
                         <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/0b86f140b31a7d0e1a56cf24bbca3f633793117eab583a2571c93d9575e27cc3?apiKey=b6da57859309491f85bbb08a288b2520&" className="object-contain object-center w-6 max-w-full overflow-hidden aspect-square shrink-0"/>
@@ -212,7 +212,7 @@ function App() {
                     </div>
                   </div>
                 </div>
-                <div className="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0">
+                <div className="flex flex-col items-stretch w-[33%] lg:ml-5 max-lg:w-full max-md:ml-0">
                   <div className="flex flex-col items-stretch w-full p-5 mx-auto bg-white rounded-lg shadow-sm max-md:mt-5">
                     <div className="flex items-stretch gap-2 pr-4">
                       <div className="text-base leading-6 text-neutral-600 shrink basis-auto">
@@ -220,7 +220,7 @@ function App() {
                       </div>
                       <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/229a31b7fe4a5c160140562a0d14dc8fb21c447c32fb8b3fb1148ebb871f88d9?apiKey=b6da57859309491f85bbb08a288b2520&" className="self-center object-contain object-center w-4 max-w-full my-auto overflow-hidden aspect-square shrink-0"/>
                     </div>
-                    <div className="mt-4 text-3xl font-medium leading-10 text-zinc-900">
+                    <div className="mt-4 font-medium leading-10 xl:text-3xl text-zinc-900 lg:text-xl md:text-3xl sm1:text-3xl">
                       ₹23,92,312.19
                     </div>
                   </div>
@@ -256,110 +256,166 @@ function App() {
                   <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/292f7ba24753d98c8b1dfb784cfd238342ba9e34a3c5df64d81152c052e02429?apiKey=b6da57859309491f85bbb08a288b2520&" className="object-contain object-center max-w-full overflow-hidden aspect-square w-9 shrink-0"/>
                 </div>
               </div>
-              {/* <div className="justify-between items-stretch rounded bg-zinc-100 flex w-full gap-5 mt-3 px-3 py-2.5 max-md:max-w-full max-md:flex-wrap">
-                <div className="flex items-stretch justify-between gap-5 max-md:max-w-full max-md:flex-wrap">
-                  <div className="text-sm font-medium leading-5 text-neutral-600">
-                    Order ID
+              <div className="sm1:hidden lg:block">
+                <div className="justify-between items-stretch rounded bg-zinc-100  flex flex-col pt-3.5 px-3 max-md:max-w-full mt-3">
+                  <div className="flex items-stretch justify-between gap-5 font-medium max-md:max-w-full max-md:flex-wrap">
+                    <div className="items-stretch justify-center text-sm leading-5 grow">
+                      Order ID
+                    </div>
+                    <div className="justify-center items-stretch flex grow basis-[0%] flex-col lg:pr-16 max-md:pr-5">
+                      <div className="items-center flex justify-between gap-1.5 max-md:mr-1">
+                        <div className="flex w-2.5 shrink-0 h-2.5 flex-col my-auto rounded-[50%]" />
+                        <div className="self-stretch pl-2 text-sm leading-5 text-zinc-900 grow whitespace-nowrap">
+                          Status
+                        </div>
+                      </div>
+                    </div>
+                    <div className="items-stretch justify-center pl-2 text-sm leading-5 text-neutral-600 whitespace-nowrap grow pr-14 max-md:pr-5">
+                      Transaction ID
+                    </div>
+                    <div className="items-stretch justify-center pl-4 pr-10 text-sm leading-5 text-neutral-600 whitespace-nowrap grow max-md:pr-5">
+                      Refund Date
+                    </div>
+                    <div className="items-end justify-center pl-16 text-sm leading-5 text-right text-zinc-900 whitespace-nowrap grow max-md:pl-5">
+                      Order Amount
+                    </div>
                   </div>
-                  <div className="text-sm font-medium leading-5 text-right text-neutral-600">
-                    Status
-                  </div>
-                  <div className="text-sm font-medium leading-5 text-right text-neutral-600">
-                    Transaction ID
-                  </div>
-                  <div className="text-sm font-medium leading-5 text-neutral-600">
-                    Refund date
-                  </div>
+                  <div className="bg-neutral-200 shrink-0 h-px mt-3.5 max-md:max-w-full" />
                 </div>
-                <div className="text-sm font-medium leading-5 text-right text-neutral-600">
-                  Order amount
-                </div>
-              </div> */}
-              <div className="justify-between items-stretch rounded bg-zinc-100  flex flex-col pt-3.5 px-3 max-md:max-w-full mt-3">
-                <div className="flex items-stretch justify-between gap-5 font-medium max-md:max-w-full max-md:flex-wrap">
-                  <div className="items-stretch justify-center text-sm leading-5 grow">
-                    Order ID
+                <div className="justify-between items-stretch bg-white flex flex-col pt-3.5 px-3 max-md:max-w-full">
+                  <div className="flex items-stretch justify-between gap-5 max-md:max-w-full max-md:flex-wrap">
+                    <div className="items-stretch justify-center text-sm font-medium leading-5 bg-white text-sky-700 grow">
+                      #281209
+                    </div>
+                    <div className="justify-center items-stretch bg-white flex grow basis-[0%] flex-col lg:pr-16 max-md:pr-5">
+                      <div className="items-center flex justify-between gap-1.5 max-md:mr-1">
+                        <div className="flex w-2.5 shrink-0 h-2.5 flex-col my-auto rounded-[50%]" />
+                        <div className="self-stretch text-sm leading-5 text-zinc-900 grow whitespace-nowrap">
+                        <span className="text-[0.5em] pr-1">&#128994;</span>Successful
+                        </div>
+                      </div>
+                    </div>
+                    <div className="items-stretch justify-center text-sm leading-5 bg-white text-neutral-600 whitespace-nowrap grow pr-14 max-md:pr-5">
+                      131634495747
+                    </div>
+                    <div className="items-stretch justify-center pr-10 text-sm leading-5 bg-white text-neutral-600 whitespace-nowrap grow max-md:pr-5">
+                      Today, 08:45 PM
+                    </div>
+                    <div className="items-end justify-center pl-16 text-sm leading-5 text-right bg-white text-zinc-900 whitespace-nowrap grow max-md:pl-5">
+                      ₹1,125.00
+                    </div>
                   </div>
-                  <div className="justify-center items-stretch flex grow basis-[0%] flex-col pr-16 max-md:pr-5">
+                  <div className="bg-neutral-200 shrink-0 h-px mt-3.5 max-md:max-w-full" />
+                </div>
+                <div className="justify-between items-stretch bg-white flex flex-col pt-3.5 px-3 max-md:max-w-full">
+                  <div className="flex items-stretch justify-between gap-5 max-md:max-w-full max-md:flex-wrap">
+                    <div className="items-stretch justify-center text-sm font-medium leading-5 bg-white text-sky-700 grow">
+                      #281208
+                    </div>
+                    <div className="justify-center items-stretch bg-white flex grow basis-[0%] flex-col lg:pr-16 max-md:pr-5">
+                      <div className="items-center flex justify-between gap-1.5 max-md:mr-0.5">
+                        <div className="flex w-2.5 shrink-0 h-2.5 flex-col my-auto rounded-[50%]" />
+                        <div className="self-stretch text-sm leading-5 text-zinc-900 grow whitespace-nowrap">
+                        <span className="text-[0.5em]  pr-1 grayscale">&#128994;</span>Processing
+                        </div>
+                      </div>
+                    </div>
+                    <div className="items-stretch justify-center text-sm leading-5 bg-white text-neutral-600 whitespace-nowrap grow pr-14 max-md:pr-5">
+                      131634495747
+                    </div>
+                    <div className="items-stretch justify-center pr-6 text-sm leading-5 bg-white text-neutral-600 whitespace-nowrap grow max-md:pr-5">
+                      Yesterday, 3:00 PM
+                    </div>
+                    <div className="items-end justify-center pl-16 text-sm leading-5 text-right bg-white text-zinc-900 whitespace-nowrap grow max-md:pl-5">
+                      ₹1,125.00
+                    </div>
+                  </div>
+                  <div className="bg-neutral-200 shrink-0 h-px mt-3.5 max-md:max-w-full" />
+                </div>
+                <div className="justify-between items-stretch bg-white flex flex-col pt-3.5 px-3 max-md:max-w-full">
+                  <div className="flex items-stretch justify-between gap-5 max-md:max-w-full max-md:flex-wrap">
+                    <div className="items-stretch justify-center text-sm font-medium leading-5 bg-white text-sky-700 grow">
+                      #281207
+                    </div>
+                    <div className="justify-center items-stretch bg-white flex grow basis-[0%] flex-col lg:pr-16 max-md:pr-5">
+                      <div className="items-center flex justify-between gap-1.5 max-md:mr-1">
+                        <div className="flex w-2.5 shrink-0 h-2.5 flex-col my-auto rounded-[50%]" />
+                        <div className="self-stretch text-sm leading-5 text-zinc-900 grow whitespace-nowrap">
+                        <span className="text-[0.5em] pr-1">&#128994;</span>Successful
+                        </div>
+                      </div>
+                    </div>
+                    <div className="items-stretch justify-center text-sm leading-5 bg-white text-neutral-600 whitespace-nowrap grow pr-14 max-md:pr-5">
+                      131634495747
+                    </div>
+                    <div className="text-neutral-600 text-sm leading-5 whitespace-nowrap justify-center items-stretch bg-white grow pr-2.5">
+                      12 Jul 2023, 03:00 PM
+                    </div>
+                    <div className="items-end justify-center pl-16 text-sm leading-5 text-right bg-white text-zinc-900 whitespace-nowrap grow max-md:pl-5">
+                      ₹1,125.00
+                    </div>
+                  </div>
+                  <div className="bg-neutral-200 shrink-0 h-px mt-3.5 max-md:max-w-full" />
+                </div>
+                <div className="justify-between items-stretch bg-white flex flex-col pt-3.5 px-3 max-md:max-w-full">
+                  <div className="flex items-stretch justify-between gap-5 max-md:max-w-full max-md:flex-wrap">
+                    <div className="items-stretch justify-center text-sm font-medium leading-5 bg-white text-sky-700 grow">
+                      #281206
+                    </div>
+                    <div className="justify-center items-stretch bg-white flex grow basis-[0%] flex-col lg:pr-16 max-md:pr-5">
+                      <div className="items-center flex justify-between gap-1.5 max-md:mr-1">
+                        <div className="flex w-2.5 shrink-0 h-2.5 flex-col my-auto rounded-[50%]" />
+                        <div className="self-stretch text-sm leading-5 text-zinc-900 grow whitespace-nowrap">
+                        <span className="text-[0.5em] pr-1">&#128994;</span>Successful
+                        </div>
+                      </div>
+                    </div>
+                    <div className="items-stretch justify-center text-sm leading-5 bg-white text-neutral-600 whitespace-nowrap grow pr-14 max-md:pr-5">
+                      131634495747
+                    </div>
+                    <div className="text-neutral-600 text-sm leading-5 whitespace-nowrap justify-center items-stretch bg-white grow pr-2.5">
+                      12 Jul 2023, 03:00 PM
+                    </div>
+                    <div className="items-end justify-center pl-16 text-sm leading-5 text-right bg-white text-zinc-900 whitespace-nowrap grow max-md:pl-5">
+                      ₹1,125.00
+                    </div>
+                  </div>
+                  <div className="bg-neutral-200 shrink-0 h-px mt-3.5 max-md:max-w-full" />
+                </div>
+                <div className="justify-between items-stretch bg-white flex flex-col pt-3.5 px-3 max-md:max-w-full">
+                  <div className="flex items-stretch justify-between gap-5 max-md:max-w-full max-md:flex-wrap">
+                    <div className="items-stretch justify-center text-sm font-medium leading-5 bg-white text-sky-700 grow">
+                      #281205
+                    </div>
+                    <div className="justify-center items-stretch bg-white flex grow basis-[0%] flex-col lg:pr-16 max-md:pr-5">
+                      <div className="items-center flex justify-between gap-1.5 max-md:mr-1">
+                        <div className="flex w-2.5 shrink-0 h-2.5 flex-col my-auto rounded-[50%]" />
+                        <div className="self-stretch text-sm leading-5 text-zinc-900 grow whitespace-nowrap">
+                        <span className="text-[0.5em] pr-1">&#128994;</span>Successful
+                        </div>
+                      </div>
+                    </div>
+                    <div className="items-stretch justify-center text-sm leading-5 bg-white text-neutral-600 whitespace-nowrap grow pr-14 max-md:pr-5">
+                      131634495747
+                    </div>
+                    <div className="text-neutral-600 text-sm leading-5 whitespace-nowrap justify-center items-stretch bg-white grow pr-2.5">
+                      12 Jul 2023, 03:00 PM
+                    </div>
+                    <div className="items-end justify-center pl-16 text-sm leading-5 text-right bg-white text-zinc-900 whitespace-nowrap grow max-md:pl-5">
+                      ₹1,125.00
+                    </div>
+                  </div>
+                  <div className="bg-neutral-200 shrink-0 h-px mt-3.5 max-md:max-w-full" />
+                </div>
+                <div className="justify-between items-stretch bg-white flex gap-5 px-3 py-3.5 max-md:max-w-full max-md:flex-wrap">
+                  <div className="items-stretch justify-center text-sm font-medium leading-5 bg-white text-sky-700 grow">
+                    #281204
+                  </div>
+                  <div className="justify-center items-stretch bg-white flex grow basis-[0%] flex-col lg:pr-16 max-md:pr-5">
                     <div className="items-center flex justify-between gap-1.5 max-md:mr-1">
                       <div className="flex w-2.5 shrink-0 h-2.5 flex-col my-auto rounded-[50%]" />
                       <div className="self-stretch text-sm leading-5 text-zinc-900 grow whitespace-nowrap">
-                        Status
-                      </div>
-                    </div>
-                  </div>
-                  <div className="items-stretch justify-center text-sm leading-5 text-neutral-600 whitespace-nowrap grow pr-14 max-md:pr-5">
-                    Transaction ID
-                  </div>
-                  <div className="items-stretch justify-center pr-10 text-sm leading-5 text-neutral-600 whitespace-nowrap grow max-md:pr-5">
-                    Refund Date
-                  </div>
-                  <div className="items-end justify-center pl-16 text-sm leading-5 text-right text-zinc-900 whitespace-nowrap grow max-md:pl-5">
-                    Order Amount
-                  </div>
-                </div>
-                <div className="bg-neutral-200 shrink-0 h-px mt-3.5 max-md:max-w-full" />
-              </div>
-              <div className="justify-between items-stretch bg-white flex flex-col pt-3.5 px-3 max-md:max-w-full">
-                <div className="flex items-stretch justify-between gap-5 max-md:max-w-full max-md:flex-wrap">
-                  <div className="items-stretch justify-center text-sm font-medium leading-5 bg-white text-sky-700 grow">
-                    #281209
-                  </div>
-                  <div className="justify-center items-stretch bg-white flex grow basis-[0%] flex-col pr-16 max-md:pr-5">
-                    <div className="items-center flex justify-between gap-1.5 max-md:mr-1">
-                      <div className="flex w-2.5 shrink-0 h-2.5 flex-col my-auto rounded-[50%]" />
-                      <div className="self-stretch text-sm leading-5 text-zinc-900 grow whitespace-nowrap">
-                        Successful
-                      </div>
-                    </div>
-                  </div>
-                  <div className="items-stretch justify-center text-sm leading-5 bg-white text-neutral-600 whitespace-nowrap grow pr-14 max-md:pr-5">
-                    131634495747
-                  </div>
-                  <div className="items-stretch justify-center pr-10 text-sm leading-5 bg-white text-neutral-600 whitespace-nowrap grow max-md:pr-5">
-                    Today, 08:45 PM
-                  </div>
-                  <div className="items-end justify-center pl-16 text-sm leading-5 text-right bg-white text-zinc-900 whitespace-nowrap grow max-md:pl-5">
-                    ₹1,125.00
-                  </div>
-                </div>
-                <div className="bg-neutral-200 shrink-0 h-px mt-3.5 max-md:max-w-full" />
-              </div>
-              <div className="justify-between items-stretch bg-white flex flex-col pt-3.5 px-3 max-md:max-w-full">
-                <div className="flex items-stretch justify-between gap-5 max-md:max-w-full max-md:flex-wrap">
-                  <div className="items-stretch justify-center text-sm font-medium leading-5 bg-white text-sky-700 grow">
-                    #281208
-                  </div>
-                  <div className="justify-center items-stretch bg-white flex grow basis-[0%] flex-col pr-16 max-md:pr-5">
-                    <div className="items-center flex justify-between gap-1.5 max-md:mr-0.5">
-                      <div className="flex w-2.5 shrink-0 h-2.5 flex-col my-auto rounded-[50%]" />
-                      <div className="self-stretch text-sm leading-5 text-zinc-900 grow whitespace-nowrap">
-                        Processing
-                      </div>
-                    </div>
-                  </div>
-                  <div className="items-stretch justify-center text-sm leading-5 bg-white text-neutral-600 whitespace-nowrap grow pr-14 max-md:pr-5">
-                    131634495747
-                  </div>
-                  <div className="items-stretch justify-center pr-6 text-sm leading-5 bg-white text-neutral-600 whitespace-nowrap grow max-md:pr-5">
-                    Yesterday, 3:00 PM
-                  </div>
-                  <div className="items-end justify-center pl-16 text-sm leading-5 text-right bg-white text-zinc-900 whitespace-nowrap grow max-md:pl-5">
-                    ₹1,125.00
-                  </div>
-                </div>
-                <div className="bg-neutral-200 shrink-0 h-px mt-3.5 max-md:max-w-full" />
-              </div>
-              <div className="justify-between items-stretch bg-white flex flex-col pt-3.5 px-3 max-md:max-w-full">
-                <div className="flex items-stretch justify-between gap-5 max-md:max-w-full max-md:flex-wrap">
-                  <div className="items-stretch justify-center text-sm font-medium leading-5 bg-white text-sky-700 grow">
-                    #281207
-                  </div>
-                  <div className="justify-center items-stretch bg-white flex grow basis-[0%] flex-col pr-16 max-md:pr-5">
-                    <div className="items-center flex justify-between gap-1.5 max-md:mr-1">
-                      <div className="flex w-2.5 shrink-0 h-2.5 flex-col my-auto rounded-[50%]" />
-                      <div className="self-stretch text-sm leading-5 text-zinc-900 grow whitespace-nowrap">
-                        Successful
+                      <span className="text-[0.5em] pr-1">&#128994;</span>Successful
                       </div>
                     </div>
                   </div>
@@ -373,80 +429,64 @@ function App() {
                     ₹1,125.00
                   </div>
                 </div>
-                <div className="bg-neutral-200 shrink-0 h-px mt-3.5 max-md:max-w-full" />
               </div>
-              <div className="justify-between items-stretch bg-white flex flex-col pt-3.5 px-3 max-md:max-w-full">
-                <div className="flex items-stretch justify-between gap-5 max-md:max-w-full max-md:flex-wrap">
-                  <div className="items-stretch justify-center text-sm font-medium leading-5 bg-white text-sky-700 grow">
-                    #281206
-                  </div>
-                  <div className="justify-center items-stretch bg-white flex grow basis-[0%] flex-col pr-16 max-md:pr-5">
-                    <div className="items-center flex justify-between gap-1.5 max-md:mr-1">
-                      <div className="flex w-2.5 shrink-0 h-2.5 flex-col my-auto rounded-[50%]" />
-                      <div className="self-stretch text-sm leading-5 text-zinc-900 grow whitespace-nowrap">
-                        Successful
-                      </div>
-                    </div>
-                  </div>
-                  <div className="items-stretch justify-center text-sm leading-5 bg-white text-neutral-600 whitespace-nowrap grow pr-14 max-md:pr-5">
-                    131634495747
-                  </div>
-                  <div className="text-neutral-600 text-sm leading-5 whitespace-nowrap justify-center items-stretch bg-white grow pr-2.5">
-                    12 Jul 2023, 03:00 PM
-                  </div>
-                  <div className="items-end justify-center pl-16 text-sm leading-5 text-right bg-white text-zinc-900 whitespace-nowrap grow max-md:pl-5">
-                    ₹1,125.00
-                  </div>
-                </div>
-                <div className="bg-neutral-200 shrink-0 h-px mt-3.5 max-md:max-w-full" />
+
+              <div className="mt-4 lg:hidden">
+                
+             
+              <div className="mt-2 ">
+                <div className="flex justify-between mt-0"><span className="font-medium">Order ID</span><span className="font-medium text-sky-700">#281209</span></div>
+                <div className="flex justify-between mt-0"><span className="font-medium">Status</span><span><span className="text-[0.5em] pr-1">&#128994;</span>Successful</span></div>
+                <div className="flex justify-between mt-0"><span className="font-medium">Transaction ID</span><span className="">131634495747</span></div>
+                <div className="flex justify-between mt-0"><span className="font-medium">Refund Date</span><span className="">Today, 08:45 PM</span></div>
+                <div className="flex justify-between mt-0"><span className="font-medium">Order Amount</span><span className="">₹1,125.00</span></div>
               </div>
-              <div className="justify-between items-stretch bg-white flex flex-col pt-3.5 px-3 max-md:max-w-full">
-                <div className="flex items-stretch justify-between gap-5 max-md:max-w-full max-md:flex-wrap">
-                  <div className="items-stretch justify-center text-sm font-medium leading-5 bg-white text-sky-700 grow">
-                    #281205
-                  </div>
-                  <div className="justify-center items-stretch bg-white flex grow basis-[0%] flex-col pr-16 max-md:pr-5">
-                    <div className="items-center flex justify-between gap-1.5 max-md:mr-1">
-                      <div className="flex w-2.5 shrink-0 h-2.5 flex-col my-auto rounded-[50%]" />
-                      <div className="self-stretch text-sm leading-5 text-zinc-900 grow whitespace-nowrap">
-                        Successful
-                      </div>
-                    </div>
-                  </div>
-                  <div className="items-stretch justify-center text-sm leading-5 bg-white text-neutral-600 whitespace-nowrap grow pr-14 max-md:pr-5">
-                    131634495747
-                  </div>
-                  <div className="text-neutral-600 text-sm leading-5 whitespace-nowrap justify-center items-stretch bg-white grow pr-2.5">
-                    12 Jul 2023, 03:00 PM
-                  </div>
-                  <div className="items-end justify-center pl-16 text-sm leading-5 text-right bg-white text-zinc-900 whitespace-nowrap grow max-md:pl-5">
-                    ₹1,125.00
-                  </div>
-                </div>
-                <div className="bg-neutral-200 shrink-0 h-px mt-3.5 max-md:max-w-full" />
+              <div className="bg-neutral-200 shrink-0 h-px mt-3.5 max-md:max-w-full" />
+              <div className="mt-2">
+                <div className="flex justify-between mt-0"><span className="font-medium">Order ID</span><span className="font-medium text-sky-700">#281208</span></div>
+                <div className="flex justify-between mt-0"><span className="font-medium">Status</span><span><span className="text-[0.5em]  pr-1 grayscale">&#128994;</span>Processing</span></div>
+                <div className="flex justify-between mt-0"><span className="font-medium">Transaction ID</span><span className="">131634495747</span></div>
+                <div className="flex justify-between mt-0"><span className="font-medium">Refund Date</span><span className="">Yesterday, 3:00 PM</span></div>
+                <div className="flex justify-between mt-0"><span className="font-medium">Order Amount</span><span className="">₹1,125.00</span></div>
               </div>
-              <div className="justify-between items-stretch bg-white flex gap-5 px-3 py-3.5 max-md:max-w-full max-md:flex-wrap">
-                <div className="items-stretch justify-center text-sm font-medium leading-5 bg-white text-sky-700 grow">
-                  #281204
-                </div>
-                <div className="justify-center items-stretch bg-white flex grow basis-[0%] flex-col pr-16 max-md:pr-5">
-                  <div className="items-center flex justify-between gap-1.5 max-md:mr-1">
-                    <div className="flex w-2.5 shrink-0 h-2.5 flex-col my-auto rounded-[50%]" />
-                    <div className="self-stretch text-sm leading-5 text-zinc-900 grow whitespace-nowrap">
-                      Successful
-                    </div>
-                  </div>
-                </div>
-                <div className="items-stretch justify-center text-sm leading-5 bg-white text-neutral-600 whitespace-nowrap grow pr-14 max-md:pr-5">
-                  131634495747
-                </div>
-                <div className="text-neutral-600 text-sm leading-5 whitespace-nowrap justify-center items-stretch bg-white grow pr-2.5">
-                  12 Jul 2023, 03:00 PM
-                </div>
-                <div className="items-end justify-center pl-16 text-sm leading-5 text-right bg-white text-zinc-900 whitespace-nowrap grow max-md:pl-5">
-                  ₹1,125.00
-                </div>
+              <div className="bg-neutral-200 shrink-0 h-px mt-3.5 max-md:max-w-full" />
+              <div className="mt-2">
+                <div className="flex justify-between mt-0"><span className="font-medium">Order ID</span><span className="font-medium text-sky-700">#281207</span></div>
+                <div className="flex justify-between mt-0"><span className="font-medium">Status</span><span><span className="text-[0.5em] pr-1">&#128994;</span>Successful</span></div>
+                <div className="flex justify-between mt-0"><span className="font-medium">Transaction ID</span><span className="">131634495747</span></div>
+                <div className="flex justify-between mt-0"><span className="font-medium">Refund Date</span><span className="">12 Jul 2023, 03:00 PM</span></div>
+                <div className="flex justify-between mt-0"><span className="font-medium">Order Amount</span><span className="">₹1,125.00</span></div>
               </div>
+              <div className="bg-neutral-200 shrink-0 h-px mt-3.5 max-md:max-w-full" />
+              <div className="mt-2">
+                <div className="flex justify-between mt-0"><span className="font-medium">Order ID</span><span className="font-medium text-sky-700">#281206</span></div>
+                <div className="flex justify-between mt-0"><span className="font-medium">Status</span><span><span className="text-[0.5em] pr-1">&#128994;</span>Successful</span></div>
+                <div className="flex justify-between mt-0"><span className="font-medium">Transaction ID</span><span className="">131634495747</span></div>
+                <div className="flex justify-between mt-0"><span className="font-medium">Refund Date</span><span className="">12 Jul 2023, 03:00 PM</span></div>
+                <div className="flex justify-between mt-0"><span className="font-medium">Order Amount</span><span className="">₹1,125.00</span></div>
+              </div>
+              <div className="bg-neutral-200 shrink-0 h-px mt-3.5 max-md:max-w-full" />
+              <div className="mt-2">
+                <div className="flex justify-between mt-0"><span className="font-medium">Order ID</span><span className="font-medium text-sky-700">#281205</span></div>
+                <div className="flex justify-between mt-0"><span className="font-medium">Status</span><span><span className="text-[0.5em] pr-1">&#128994;</span>Successful</span></div>
+                <div className="flex justify-between mt-0"><span className="font-medium">Transaction ID</span><span className="">131634495747</span></div>
+                <div className="flex justify-between mt-0"><span className="font-medium">Refund Date</span><span className="">12 Jul 2023, 03:00 PM</span></div>
+                <div className="flex justify-between mt-0"><span className="font-medium">Order Amount</span><span className="">₹1,125.00</span></div>
+              </div>
+              <div className="bg-neutral-200 shrink-0 h-px mt-3.5 max-md:max-w-full" />
+              <div className="mt-2">
+                <div className="flex justify-between mt-0"><span className="font-medium">Order ID</span><span className="font-medium text-sky-700">#281204</span></div>
+                <div className="flex justify-between mt-0"><span className="font-medium">Status</span><span><span className="text-[0.5em] pr-1">&#128994;</span>Successful</span></div>
+                <div className="flex justify-between mt-0"><span className="font-medium">Transaction ID</span><span className="">131634495747</span></div>
+                <div className="flex justify-between mt-0"><span className="font-medium">Refund Date</span><span className="">12 Jul 2023, 03:00 PM</span></div>
+                <div className="flex justify-between mt-0"><span className="font-medium">Order Amount</span><span className="">₹1,125.00</span></div>
+              </div>
+              {/* <div className="bg-neutral-200 shrink-0 h-px mt-3.5 max-md:max-w-full" /> */}
+              </div>
+              <div>
+                
+              </div>
+              
             </div>
           </div>
         </div>
